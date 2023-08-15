@@ -30,11 +30,11 @@
     }
     .lembrar p{
         font-size: 14px;
-        font-weight: 700;
+        font-weight: bold;
     }
     .container{
         width: 100%;
-        background: url("/images/projeto3.png");
+        background: url("../images/projeto3.png");
 
     }
     .conect{
