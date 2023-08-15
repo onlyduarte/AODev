@@ -32,4 +32,23 @@
         font-size: 14px;
         font-weight: 700;
     }
+    .container{
+        width: 100%;
+        background: url("/images/projeto3.png");
+
+    }
+    .conect{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        /* padding-right: 10px; */
+        /* background: red; */
+       
+    }
+    .aodImg img{
+        display: none;
+        width: 100%;
+        
+    }
 }
