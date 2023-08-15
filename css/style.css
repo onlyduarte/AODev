@@ -4,8 +4,7 @@
 }
 body{
    height: 100vh;
-   /* background-image: url:("images/projeto3.png"); */
-   background: url("/images/projeto3.png");
+   background: url("../images/projeto3.png");
    color: white;
    display: flex;
    align-items: center;
