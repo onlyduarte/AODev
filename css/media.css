@@ -25,8 +25,6 @@
 @media (max-width: 600px){
     .lembrar{
         gap: 5px;
-        display: flex;
-        flex-direction: column;
     }
     .lembrar p{
         font-size: 14px;
@@ -35,19 +33,28 @@
     .container{
         width: 100%;
         background: url("../images/projeto3.png");
-
     }
     .conect{
         display: flex;
         align-items: center;
         justify-content: center;
         width: 100%;
-        /* padding-right: 10px; */
-        /* background: red; */
        
+    }
+    .conect h1{
+        /* background: #000000; */
+        box-sizing: 10%;
+        width: 32%;
+        /* opacity: 80%; */
+        /* box-shadow: 0px 0px 50px #000000; */
+        font-weight: bold;
     }
     .aodImg img{
         display: none;
+        width: 100%;
+        
+    }
+    .container2{
         width: 100%;
         
     }
