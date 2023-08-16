@@ -1,53 +1,44 @@
-@media (max-width: 1300px){
+@media (max-width: 1600px){
+    .container{
+        width: 70%;
+
+    }
+}
+@media (max-width: 1200px){
     .container{
         width: 80%;
 
     }
 }
 @media (max-width: 900px){
-    body{
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-    }
     .container{
         width: 100%;
 
     }
 }
 @media (max-width: 750px){
-    .lembrar .active-button p{
+    .lembrar p{
         font-size: 14px;
         font-weight: 700;
     }
 }
 @media (max-width: 650px){
-    .lembrar .active-button p{
-        font-size: 13px;
+    .lembrar p{
+        font-size: 11px;
         font-weight: 700;
     }
 }
-@media (max-width: 600px){
-    body{
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-
-    }
+@media (max-width: 700px){
     .lembrar{
         gap: 5px;
     }
-    .lembrar .active-button p{
+    .lembrar p{
         font-size: 14px;
         font-weight: bold;
     }
     .container{
         width: 100%;
         background: url("../images/projeto3.png");
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: cover;
-
     }
     .conect{
         display: flex;

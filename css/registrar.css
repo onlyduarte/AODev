@@ -18,6 +18,7 @@ body{
     align-items: center;
     flex-direction: row;
     /* width: 1096px; */
+    /* min-width: 58%; */
     width: 58%;
     height: 578.55px;
     border-radius: 20px;
@@ -45,7 +46,7 @@ body{
     gap: 15px;
     display: flex;
     width: 65%;
-    text-align: left;
+    text-align: center;
     justify-content: flex-start;
     flex-direction: column;
     padding-bottom: 10px;
@@ -71,39 +72,31 @@ body{
 
 .lembrar{
     width: 65%;
+    /* background: red; */
     display: flex;
-    gap: 8px;
     align-items: center;
     text-align: center;
-    justify-content: center;
-    flex-direction: column;
+    justify-content: space-between;
+    flex-direction: row;
     padding-bottom: 20px;
+}
+.lembrar p{
+    font-size: 17px;
 }
 .lembrar a{
     text-decoration: none;
-
-}
-.lembrar .recuperar{
-    font-size: 20px;
-}
-.lembrar-sempre{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    gap: 7px;
-}
-.lembrar .active-button p{
-    font-size: 20px;
 }
 
 .active-button{
     width: 100%;
+    gap: 10px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     align-items: center;
+    justify-content: center;
+    flex-direction: row;
 }
 .active-button p{
+    font-size: 20px;
     color: #7400F4;
 
 }
