@@ -38,6 +38,7 @@
     }
 }
 @media (max-width: 600px){
+    
     body{
         background-repeat: no-repeat;
         background-position: center;
@@ -48,8 +49,14 @@
         gap: 5px;
     }
     .lembrar .active-button p{
-        font-size: 17px;
+        font-size: 14px;
         font-weight: bold;
+    }
+    .lembrar-sempre{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 2px;
     }
     .container{
         width: 100%;
