@@ -96,6 +96,7 @@ body{
     flex-direction: row;
 }
 .active-button p{
+    background: #000000;
     font-size: 20px;
     color: #7400F4;
 

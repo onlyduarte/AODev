@@ -6,25 +6,24 @@
 }
 @media (max-width: 1200px){
     .container{
-        width: 80%;
+        width: 90%;
 
     }
 }
 @media (max-width: 900px){
+    .aodImg img{
+        display: none;
+        width: 100%;
+        
+    }
     .container{
         width: 100%;
-
+        background: url("../images/projeto3.png");
     }
 }
 @media (max-width: 750px){
     .lembrar p{
-        font-size: 14px;
-        font-weight: 700;
-    }
-}
-@media (max-width: 650px){
-    .lembrar p{
-        font-size: 11px;
+        font-size: 20px;
         font-weight: 700;
     }
 }
@@ -33,7 +32,7 @@
         gap: 5px;
     }
     .lembrar p{
-        font-size: 14px;
+        font-size: 20px;
         font-weight: bold;
     }
     .container{
