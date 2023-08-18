@@ -1,7 +1,6 @@
 @media (max-width: 1600px){
     .container{
         width: 70%;
-
     }
     .lembrar .active-button p{
         font-size: 16px;
@@ -9,12 +8,17 @@
     }
 }
 @media (max-width: 1300px){
+    .lembrar .active-button p{
+        width: 80%;
+    }
     .container{
         width: 80%;
-
     }
 }
 @media (max-width: 900px){
+    .lembrar .active-button p{
+        width: 80%;
+    }
     body{
         background-repeat: no-repeat;
         background-position: center;
@@ -22,7 +26,6 @@
     }
     .container{
         width: 100%;
-
     }
 }
 @media (max-width: 750px){
@@ -34,21 +37,28 @@
         font-weight: 700;
     }
 }
-@media (max-width: 650px){
+@media (max-width: 700px){
     .lembrar .active-button p{
-        font-size: 13px;
+        background: none;
+        position: relative;
+        right: 20px;
+        width: 80%;
+        font-size: 12px;
         font-weight: 700;
     }
 }
 @media (max-width: 600px){
-    /* .entrar input{
-        width: 90%;
-    } */
+    .lembrar .active-button p{
+        position: relative;
+        left: 5px;
+        width: 80%;
+        font-size: 12px;
+        font-weight: 700;
+    }
     body{
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-
     }
     .lembrar{
         gap: 5px;
@@ -73,11 +83,11 @@
         /* background: url("../images/projeto3.png"); */
         background: rgb(0, 0, 0);
         /* opacity: 90%; */
+        border-radius: 15px;
         display: flex;
         align-items: center;
         justify-content: center;
         width: 100%;
-       
     }
     .conect h1{
         box-sizing: 10%;
@@ -86,7 +96,6 @@
     }
     .aodImg img{
         display: none;
-        width: 100%;
-        
+        width: 100%;   
     }
 }

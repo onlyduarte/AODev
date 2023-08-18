@@ -4,7 +4,6 @@ const olho = document.querySelector("#imgOlho")
 
 let check = false
 
-
 olho.addEventListener('click', () => {
     check = !check
     if(check) {
@@ -13,7 +12,6 @@ olho.addEventListener('click', () => {
         olho.src = 'images/olho.png'
     }
 })
-
 
 mostrarSenha.addEventListener("change", function(){
     const estadoAtualPassword = password.getAttribute("type") === "password" ? "text" : "password"

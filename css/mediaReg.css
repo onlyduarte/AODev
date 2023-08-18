@@ -1,20 +1,17 @@
 @media (max-width: 1600px){
     .container{
         width: 70%;
-
     }
 }
 @media (max-width: 1200px){
     .container{
         width: 90%;
-
     }
 }
 @media (max-width: 900px){
     .aodImg img{
         display: none;
-        width: 100%;
-        
+        width: 100%;   
     }
     .container{
         position: absolute;
@@ -30,7 +27,6 @@
         align-items: center;
         justify-content: center;
         width: 100%;
-       
     }
 }
 @media (max-width: 750px){
@@ -60,8 +56,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 100%;
-       
+        width: 100%; 
     }
     .conect h1{
         box-sizing: 10%;
@@ -71,6 +66,5 @@
     .aodImg img{
         display: none;
         width: 100%;
-        
     }
 }
