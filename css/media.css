@@ -26,6 +26,9 @@
     }
 }
 @media (max-width: 750px){
+    .entrar input{
+        width: 85%;
+    }
     .lembrar .active-button p{
         font-size: 14px;
         font-weight: 700;
@@ -38,7 +41,9 @@
     }
 }
 @media (max-width: 600px){
-    
+    /* .entrar input{
+        width: 90%;
+    } */
     body{
         background-repeat: no-repeat;
         background-position: center;
@@ -59,10 +64,15 @@
         gap: 2px;
     }
     .container{
+        position: absolute;
         width: 100%;
         background: url("../images/projeto3.png");
+        opacity: 95%;
     }
     .conect{
+        /* background: url("../images/projeto3.png"); */
+        background: rgb(0, 0, 0);
+        /* opacity: 90%; */
         display: flex;
         align-items: center;
         justify-content: center;

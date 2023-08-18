@@ -17,8 +17,20 @@
         
     }
     .container{
+        position: absolute;
         width: 100%;
         background: url("../images/projeto3.png");
+        opacity: 95%;
+    }
+    .conect{
+        /* background: url("../images/projeto3.png"); */
+        background: rgb(0, 0, 0);
+        /* opacity: 90%; */
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+       
     }
 }
 @media (max-width: 750px){
@@ -36,10 +48,15 @@
         font-weight: bold;
     }
     .container{
+        position: absolute;
         width: 100%;
         background: url("../images/projeto3.png");
+        opacity: 90%;
     }
     .conect{
+        /* background: url("../images/projeto3.png"); */
+        background: rgb(0, 0, 0);
+        /* opacity: 90%; */
         display: flex;
         align-items: center;
         justify-content: center;

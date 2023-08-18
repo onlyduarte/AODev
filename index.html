@@ -3,6 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Share+Tech+Mono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/media.css">
     <title>Login AODev</title>
@@ -11,12 +14,17 @@
     <div class="container">
         <div class="conect">
             <div class="entrar">
-                <h1>Login</h1>
-                <div>
-                    <label for=""><input type="login" id="login" placeholder="Login" required></label>
-                </div>
-                <div>
-                    <label for=""><input type="password" id="password" placeholder="Password" required></div></label>
+                <h1>Entrar</h1>
+                    <input type="login" id="login" placeholder="Login" required>
+                    <label class="mostrarPass">
+                        <input type="password" id="password" placeholder="Password" required>
+                        <div>
+                            <label for="mostrarSenha" id="olho"><img  id="imgOlho" src="images/olho.png" alt="">
+                            <input type="checkbox" id="mostrarSenha">
+                            </label>
+                        </div>
+                    </label>
+                    <p class="recuperar">Recuperar senha</p>
                 </div>
             <div class="lembrar">
                 <div class="active-button">
@@ -28,7 +36,6 @@
                         <p>Lembrar sempre</p>
                     </div>
                 </div>
-                <p class="recuperar">Recuperar senha</p>
             </div>
             <button class="logar">LOGIN</button>
             <a href="registrar.html" class="register">
@@ -37,5 +44,6 @@
         </div>
         <div class="aodImg"><img src="images/projeto3.png" alt=""></div>
     </div>
+    <script src="js/script.js"></script>
 </body>
 </html>
