@@ -132,7 +132,7 @@ body{
     font-weight: 700;
     font-size: 22px;
     cursor: pointer;
-    margin-bottom: 5px;
+    margin-top: 8px;
     border: none;
     text-align: center;
 }
@@ -142,8 +142,8 @@ body{
 .switch{
     position: relative;
     display: inline-block;
-    width: 48px;
-    height: 26px;
+    width: 42px;
+    height: 20px;
     background: #7400F4;
     border: 2px solid #7400F4;
     border-radius: 50px;
